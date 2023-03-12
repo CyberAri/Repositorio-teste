@@ -91,7 +91,7 @@ header{
 }
 header h1{
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 800;
     font-weight: bolder;
     margin-bottom: 20px;
     text-align: center;
@@ -258,48 +258,72 @@ footer .linha2 a:hover{
 
 @media only screen and (max-width: 600px){
 
+    /* menu */
+
     #principal{
-        flex-direction: column;
+       flex-direction: column;
+       height: auto;
+       
     }
-    
+
     #menu{
         flex-direction: column;
         width: 100%;
         margin: 0px;
+       
     }
 
     #menu a{
         display: flex;
         align-items: center;
         height: 50px;
-      
+        
     }
+
     #principal button{
         width: 100%;
         margin: 0px;
     }
-    /* section*/
 
-    Section h1{
+    /*section*/
+
+    section h1{
         font-size: 38px;
+        padding: 0px;
+
     }
+
     section h2{
-        font-size: 28px;
-        padding-right: 15px;
-        padding-left: 15px;       
+        font-size: 28 px;
+        padding-right: 0px;
+        padding-left: 0px;
+        
     }
 
     form{
         width: 95%;
         font-size: 20px;
+
     }
 
-    .checkbox-intens{
-        font-size: 17px;
+    .checkbox-itens label{
+        font-size: 7px;
+    } 
+
+    /*footer*/
+    footer .linha1{
+        flex-direction: column;
     }
-    
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+
 
 
 }
+
 
 
