@@ -187,6 +187,7 @@ footer nav{
     flex-direction: column;
     align-items: center;
     height: 330px;
+    
 }
 
 footer h5{
@@ -277,6 +278,8 @@ footer .linha2 a:hover{
         display: flex;
         align-items: center;
         height: 50px;
+       
+
         
     }
 
@@ -320,7 +323,7 @@ footer .linha2 a:hover{
         margin-bottom: 20px;
     }
 
-
+    
 
 
 }
